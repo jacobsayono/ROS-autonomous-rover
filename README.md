@@ -1,9 +1,15 @@
-# a-ros
+# ROS Architecture
 
-## BruinBot ROS Architecture
-
-Upgraded to ROS2 Humble on Ubuntu 22.04 LTS.
+Upgraded to ROS 2 Humble on Ubuntu 22.04 LTS.
 Feb 1st, 2024
+
+## For University Capstone Project:
+
+Shell scripts: http://github.com/jacobsayono/capstone
+
+ROS 2 custom package: http://github.com/jacobsayono/line_follower
+
+## For DevX BruinBot:
 
 ![BruinBot Simulation](assets/bruinbot_simulation.png)
 ![BruinBot Simulation](assets/bruinbot_sim.png)
@@ -48,6 +54,11 @@ robot_ws/
     |___src/
         |___a-ros/  (cloned this repo)
 ```
+
+## Raspberry Pi commands for system checks
+Under-voltage/over-throttling feedback: `sudo vcgencmd get_throttled`
+
+Temperature feedback: `sudo vcgencmd measure_temp`
 
 ## SSH to Raspberry Pi
 Wifi auto connect config stored here in Raspberry Pi. Change the ssid and psk to your own router. This file can also be newly added in /boot when you etch the RPi imager the first time(?):
