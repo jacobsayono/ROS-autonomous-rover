@@ -5,9 +5,9 @@ Feb 1st, 2024
 
 ## For University Capstone Project:
 
-Shell scripts: http://github.com/jacobsayono/capstone
+Shell scripts (navigation logic & robotic mechanism control): http://github.com/jacobsayono/capstone
 
-ROS 2 custom package: http://github.com/jacobsayono/line_follower
+ROS 2 custom package (line following using computer vision): http://github.com/jacobsayono/line_follower
 
 ## For DevX BruinBot:
 
